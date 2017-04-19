@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<title>Каталог</title>
+	<style>
+		.hit:after{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="main-header">
+				<div class="container clearfix">
+					<div class="header-logo"><a href="index.html"><img src="img/Logo.svg" width="160px" height="70px" alt="gllacy"></a></div>
+					<ul class="header-menu">
+						<li><a href="#" class="btn">Каталог</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">О Компании</a></li>
+					</ul>
+					<ul class="user-ui">
+						<li class="header-search"><a href="#">Поиск</a></li>
+						<li class="header-signin"><a href="">Вход</a></li>
+						<li class="header-cart"><a href="#">Пусто</a></li>
+					</ul>
+					<p class="main-mode">С 10 до 20, ежедневно<br>
+				  <b>8 812 450-25-25</b>
+			  	</p>
+				</div>
+		  </div>
+	</header>
+	<main>
+	<div class="container clearfix">
+		<div class="main-breadcrumbs">
+			<a href="index.html">Главная</a>»
+			<a href="">Каталог</a>»
+			Сливочное
+		</div>
+		<h1>Сливочное мороженое</h1>
+		<form class="main-sort" action="" method="post">
+			<fieldset class="sort-1">
+				<div>
+					<span>Сортировка:</span>
+					<select name="sort" id="sort"  class="input-bg">
+						<option value="popular" selected>по популярности</option>
+					</select>
+				</div>
+				<div>
+					<span>Цена: 100 руб. - 500 руб.</span>
+					<span class=" range">
+					<input type="range" name="price" id="price" min="100" max="500" step="100" value="0.10" >
+					</span>
+				</div>
+				<div>
+					<span>Жирность:</span>
+					<div class="input-bg">
+						<span> 
+							<input type="radio" name="fat" id="zero" value="zero">
+							<label for="zero">0%</label>
+						</span>
+						<span>
+							<input type="radio" name="fat" id="below10" value="below10">
+							<label for="below10">до 10%</label>
+						</span>
+						<span>
+							<input type="radio" name="fat" id="below30" value="below30">
+							<label for="below30">до 30%</label>
+						</span>
+						<span>
+							<input type="radio" name="fat" id="above30" value="above30">
+							<label for="above30">выше 30%</label>
+						</span>
+					</div>
+				</div>
+			</fieldset>
+			<fieldset class="sort-2">
+				<span>Наполнители</span>
+					<div  class="input-bg">
+						<span><label for="choko">шоколадные</label><input type="checkbox" name="fill"  value="choko" id="choko" checked></span>
+						
+						<span><label for="sugar">сахарные</label><input type="checkbox" name="fill"  value="sugar" id="sugar"> </span>
+						<span><label for="fruit">фрукты</label><input type="checkbox" name="fill"  value="fruit" id="fruit"></span>
+						<span><label for="syrop">сиропы</label><input type="checkbox" name="fill" value="syrop" id="syrop"></span>
+						<span><label for="jam">джемы</label><input type="checkbox" name="fill" value="jam" id="jam"></span>
+					</div>
+					<button class="btn" type="submit">Применить</button>
+			</fieldset>
+		</form>
+		<div class="items">
+		<div class="container clearfix">
+			<div class="hitrow">
+			<div class="clearfix">
+				<div class="hit-1 hit">
+						<img src="img/1.jpg" alt="">
+						<b>310 P/кг</b>
+						<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+					</div>
+					<div class="hit-2 hit">
+						<img src="img/2.jpg" alt="">
+						<b>380 P/кг</b>
+						<p>Сливочно-кофейное с кусочками шоколада</p>
+					</div>
+					<div class="hit-3 hit">
+						<img src="img/3.jpg" alt="">
+						<b>355 P/кг</b>
+						<p>Сливочно-клубничное с присыпкой из белого шоколада</p>
+					</div>
+					<div class="hit-4 hit">
+						<img src="img/4.jpg" alt="">
+						<b>415 P/кг</b>
+						<p>Сливочное крем-брюле с карамельной подливкой </p>
+					</div>
+				</div>
+			</div>
+				<div class="hitrow">
+				<div class="clearfix">
+				<div class="hit-1 hit">
+					<img src="img/2%20(2).png" alt="">
+						<b>325 P/кг</b>
+						<p>Сливочное с брусничным джемом </p>
+					</div>
+					<div class="hit-2 hit">
+						<img src="img/2%20(3).png" alt="">
+						<b>410 P/кг</b>
+						<p>Сливочно-черничное с цельными ягодами черники</p>
+					</div>
+					<div class="hit-3 hit">
+						<img src="img/2%20(4).png" alt="">
+						<b>375 P/кг</b>
+						<p>Сливочно-лимонное с карамельной присыпкой</p>
+					</div>
+					<div class="hit-4 hit">
+						<img src="img/2%20(1).png" alt="">
+						<b>320 P/кг</b>
+						<p>Сливочное с шоколадной стружкой </p>
+					</div>
+					</div>
+			</div>
+				<div class="hitrow">
+				<div class="container clearfix">
+				<div class="hit-1 hit">
+					<img src="img/3%20(1).png" alt="">
+						<b>440 P/кг</b>
+						<p>Сливочно-ванильное с кусочками шоколада</p>
+					</div>
+					<div class="hit-2 hit">
+						<img src="img/3%20(2).png" alt="">
+						<b>435 P/кг</b>
+						<p>Сливочное с ментоловым сиропом</p>
+					</div>
+					<div class="hit-3 hit">
+						<img src="img/3%20(3).png" alt="">
+						<b>355 P/кг</b>
+						<p>Сливочное с кусочками черного шоколада</p>
+					</div>
+					<div class="hit-4 hit">
+						<img src="img/3%20(4).png" alt="">
+						<b>420 P/кг</b>
+						<p>Сливочное с мятным сиропом </p>
+					</div>
+					</div>
+			</div>
+		</div>
+		</div>
+		</div>
+	</main>
+	
+	
+	
+	<footer>
+		<div class="container clearfix">
+	  		<div class="foot-social">
+	  			<img src="img/%D0%A2%D0%B2%D0%B8%D1%82%D0%B5%D1%80.svg" alt="twitter" width="30" height="30">
+	  			<img src="img/%D0%98%D0%BD%D1%81%D1%82%D0%B0.svg" alt="instagram" width="30" height="30">
+	  			<img src="img/%D0%A4%D0%91.svg" alt="facebook" width="30" height="30">
+	  			<img src="img/%D0%92%D0%9A.svg" alt="vkontakte" width="30" height="30">
+	  		</div>
+	  		<div class="foot-nav">
+	  			<img src="img/%D0%A1%D0%B5%D1%80%D0%B4%D1%86%D0%B5.svg" alt="">
+	  			<div class="foot-nav-links">
+	  				<div class="foot-nav-left">
+							<a href="">Для поставщиков</a>
+							<a href="">О производстве</a>
+						</div>
+						<div class="foot-nav-right">
+							<a href="">Наши документы</a>
+							<a href="">Экологические стандарты</a>
+						</div>
+	  			</div>
+	  		</div>
+	  		<div class="foot-copyright">
+	  			<img src="img/%D0%9B%D0%BE%D0%B3%D0%BE%D1%85%D1%82%D0%BC%D0%BB.svg" alt="HTML Academy">
+	  			<b>Сделано в <a href="www.htmlacademy.ru">HTML Academy</a> &#169; 2016</b>
+	  		</div>
+			</div>
+	</footer>
+	
+	
+	
+	
+	
+</body>
+</html>
